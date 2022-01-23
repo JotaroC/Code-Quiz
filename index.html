@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="view-score">
+        <a href="./assets/html/score.html">View Highscores</a>
+    </div>
+    
+    <div class="timer">
+        <p>Time: <span id="time">0</span></p>
+    </div>
+
+    <main>
+        <section id="quiz-container">
+            <div class="title">
+                <h1>Code Quiz Challenge</h1>
+            </div>
+
+            <div class="intro-container">
+                <p id="intro">Try to answer the following code-related question within the time limit. Keep in mind that
+                    incorrect answers will penalize your score time by 10 seconds!
+                </p>
+            </div>
+            <button id="start">Start Quiz</button>
+        </section>
+
+        <div id="quiz-questions" class="hide">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices">
+            </div>
+        </div>
+    
+        <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+            Enter initials: <input type="text" id="initials" max="3" />
+            <a href="./assets/html/score.html"><button id="submit">Submit</button></a>
+        </p>
+        </div>
+    
+        <div id="feedback" class="feedback hide"></div>
+    
+        <script src="./assets/js/question.js"></script>
+        <script src="./assets/js/script.js"></script>
+        
+    </main>
+</body>
+</html>
