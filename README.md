@@ -6,7 +6,7 @@ The project creates a timed coding quiz with multiple-choice questions. This app
 
 ## Link
 
-Click [here](https://jotaroc.github.io/Portfolio/) to the deployed website
+Click [here](https://jotaroc.github.io/Code-Quiz/) to the deployed website
 
 ## Screenshot
 
