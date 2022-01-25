@@ -10,8 +10,16 @@
 </head>
 
 <body>
-    <div class="view-score">
-        <a href="./assets/html/score.html">View Highscores</a>
+    <div>
+        <button id="view-score">View Highscores</button>
+    </div>
+    
+    <div id="score-container">
+        <h1>Highscores</h1>
+        <ol id="score-list"></ol>
+  
+        <button id="back">Go Back</button>
+        <button id="clear">Clear Highscores</button>
     </div>
     
     <div class="timer">
@@ -32,22 +40,23 @@
             <button id="start">Start Quiz</button>
         </section>
 
-        <div id="quiz-questions" class="hide">
+        <div id="quiz-questions">
             <h2 id="question-title"></h2>
             <div id="choices" class="choices">
             </div>
+            <div id="feedback" class="feedback hide"></div>
         </div>
     
-        <div id="end-screen" class="hide">
-        <h2>All done!</h2>
+        <div id="end-screen">
+        <h2>Finished!!</h2>
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>
             Enter initials: <input type="text" id="initials" max="3" />
-            <a href="./assets/html/score.html"><button id="submit">Submit</button></a>
+            <button id="submit">Submit</button>
         </p>
         </div>
     
-        <div id="feedback" class="feedback hide"></div>
+
     
         <script src="./assets/js/question.js"></script>
         <script src="./assets/js/script.js"></script>

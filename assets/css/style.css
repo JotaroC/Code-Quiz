@@ -1,0 +1,60 @@
+body {
+    font-family: "Brush Script MT", "Brush Script Std", "cursive";
+}
+
+main {
+    margin: auto;
+    max-width: 500px;
+}
+
+.feedback {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.timer {
+    top: 10px;
+    left: 10px;
+}
+
+button {
+    display: inline-block;
+    margin: 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 110%;
+    background-color: rgb(175, 14, 108);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: rgb(238, 233, 229);
+    border: 5px solid rgb(153, 182, 75);
+}
+
+button:hover {
+    background-color: rgb(24, 177, 105);
+}
+
+.choices button {
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside;
+}
+
+li:nth-child(odd) {
+    background-color: #b47087;
+}
+
+
