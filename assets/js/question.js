@@ -1,4 +1,4 @@
-// list of all questions, choices, and answers
+// store all the question titles, choices and answers in an array
 var questions = [
     //Question 1
     {
